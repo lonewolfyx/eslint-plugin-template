@@ -3,7 +3,11 @@
   "type": "module",
   "version": "0.0.0",
   "description": "_description_",
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "plugin",
+    "eslint-plugin"
+  ],
   "homepage": "https://github.com/lonewolfyx/pkg-placeholder",
   "bugs": {
     "url": "https://github.com/lonewolfyx/pkg-placeholder/issues"
