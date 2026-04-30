@@ -15,7 +15,6 @@
         "plugin",
         "eslint-plugin"
     ],
-
     "scripts": {
         "dev": "tsdown --watch",
         "build": "tsdown",
