@@ -15,6 +15,9 @@
         "plugin",
         "eslint-plugin"
     ],
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "dev": "tsdown --watch",
         "build": "tsdown",
