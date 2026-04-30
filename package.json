@@ -39,6 +39,9 @@
         "test:run": "vitest run",
         "test:watch": "vitest watch"
     },
+    "peerDependencies": {
+        "eslint": "*"
+    },
     "publishConfig": {
         "registry": "https://registry.npmjs.org",
         "access": "public"
