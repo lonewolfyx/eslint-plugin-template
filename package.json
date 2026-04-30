@@ -44,5 +44,12 @@
         "tsdown": "^0.21.10",
         "tsx": "^4.21.0",
         "typescript": "^6.0.3"
+    },
+    "simple-git-hooks": {
+        "pre-commit": "npx lint-staged",
+        "commit-msg": "node scripts/verify-commit.js"
+    },
+    "lint-staged": {
+        "*": "eslint --fix"
     }
 }
