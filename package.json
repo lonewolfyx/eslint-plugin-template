@@ -1,46 +1,46 @@
 {
-  "name": "pkg-placeholder",
-  "type": "module",
-  "version": "0.0.0",
-  "description": "_description_",
-  "keywords": [
-    "eslint",
-    "plugin",
-    "eslint-plugin"
-  ],
-  "homepage": "https://github.com/lonewolfyx/pkg-placeholder",
-  "bugs": {
-    "url": "https://github.com/lonewolfyx/pkg-placeholder/issues"
-  },
-  "author": "lonewolfyx",
+    "name": "pkg-placeholder",
+    "type": "module",
+    "version": "0.0.0",
+    "packageManager": "pnpm@10.33.2",
+    "description": "_description_",
+    "author": "lonewolfyx",
+    "license": "ISC",
+    "homepage": "https://github.com/lonewolfyx/pkg-placeholder",
+    "bugs": {
+        "url": "https://github.com/lonewolfyx/pkg-placeholder/issues"
+    },
+    "keywords": [
+        "eslint",
+        "plugin",
+        "eslint-plugin"
+    ],
 
-  "scripts": {
-    "dev": "tsdown --watch",
-    "build": "tsdown",
-    "lint": "eslint",
-    "lint:fix": "eslint --fix",
-    "prepublishOnly": "pnpm build",
-    "prepare": "simple-git-hooks"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
-  },
-  "license": "ISC",
-  "packageManager": "pnpm@10.33.2",
-  "devDependencies": {
-    "@lonewolfyx/tsconfig": "^0.0.6",
-    "@types/node": "^25.6.0",
-    "jiti": "^2.6.1",
-    "lint-staged": "^16.4.0",
-    "picocolors": "^1.1.1",
-    "simple-git-hooks": "^2.13.1",
-    "tsdown": "^0.21.10",
-    "tsx": "^4.21.0",
-    "typescript": "^6.0.3"
-  },
-  "dependencies": {
-    "@antfu/eslint-config": "^8.2.0",
-    "eslint": "^10.2.1"
-  }
+    "scripts": {
+        "dev": "tsdown --watch",
+        "build": "tsdown",
+        "lint": "eslint",
+        "lint:fix": "eslint --fix",
+        "prepublishOnly": "pnpm build",
+        "prepare": "simple-git-hooks"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org",
+        "access": "public"
+    },
+    "dependencies": {
+        "@antfu/eslint-config": "^8.2.0",
+        "eslint": "^10.2.1"
+    },
+    "devDependencies": {
+        "@lonewolfyx/tsconfig": "^0.0.6",
+        "@types/node": "^25.6.0",
+        "jiti": "^2.6.1",
+        "lint-staged": "^16.4.0",
+        "picocolors": "^1.1.1",
+        "simple-git-hooks": "^2.13.1",
+        "tsdown": "^0.21.10",
+        "tsx": "^4.21.0",
+        "typescript": "^6.0.3"
+    }
 }
