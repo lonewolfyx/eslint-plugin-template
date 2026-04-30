@@ -2,8 +2,14 @@
   "name": "eslint-plugin-template",
   "type": "module",
   "version": "0.0.0",
-  "description": "",
+  "description": "_description_",
   "keywords": [],
+  "homepage": "https://github.com/lonewolfyx/pkg-placeholder",
+  "bugs": {
+    "url": "https://github.com/lonewolfyx/pkg-placeholder/issues"
+  },
+  "author": "lonewolfyx",
+
   "scripts": {
     "dev": "tsdown --watch",
     "build": "tsdown",
@@ -16,7 +22,6 @@
     "registry": "https://registry.npmjs.org",
     "access": "public"
   },
-  "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.33.2",
   "devDependencies": {
