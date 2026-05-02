@@ -18,5 +18,9 @@
         "noUnusedLocals": false,
         "noUnusedParameters": false,
         "declarationMap": false
-    }
+    },
+    "include": [
+        "src",
+        "test"
+    ]
 }
